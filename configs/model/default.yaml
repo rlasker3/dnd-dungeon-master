@@ -1,0 +1,21 @@
+# Default Model Configuration
+
+llm:
+  model_name: "mlx-community/Mistral-7B-Instruct-v0.2-4bit"
+  max_tokens: 2048
+  temperature: 0.7
+  top_p: 0.9
+  device: "mps"  # Use Metal GPU
+
+embeddings:
+  model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  dimension: 384
+
+memory:
+  vector_db: "chroma"
+  collection_name: "dnd_campaign_memory"
+  max_history: 50  # Number of conversation turns to remember
+
+agents:
+  npc_temperature: 0.8  # NPCs should be more creative
+  dm_temperature: 0.7   # DM should be balanced

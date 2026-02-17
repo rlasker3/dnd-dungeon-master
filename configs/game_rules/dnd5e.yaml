@@ -1,0 +1,46 @@
+# D&D 5th Edition Rules Configuration
+
+ability_scores:
+  - STR
+  - DEX
+  - CON
+  - INT
+  - WIS
+  - CHA
+
+skills:
+  acrobatics: DEX
+  animal_handling: WIS
+  arcana: INT
+  athletics: STR
+  deception: CHA
+  history: INT
+  insight: WIS
+  intimidation: CHA
+  investigation: INT
+  medicine: WIS
+  nature: INT
+  perception: WIS
+  performance: CHA
+  persuasion: CHA
+  religion: INT
+  sleight_of_hand: DEX
+  stealth: DEX
+  survival: WIS
+
+dice:
+  d4: 4
+  d6: 6
+  d8: 8
+  d10: 10
+  d12: 12
+  d20: 20
+  d100: 100
+
+difficulty_classes:
+  very_easy: 5
+  easy: 10
+  medium: 15
+  hard: 20
+  very_hard: 25
+  nearly_impossible: 30

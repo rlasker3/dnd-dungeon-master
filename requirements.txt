@@ -1,0 +1,43 @@
+# Core ML/AI
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.25.0
+sentence-transformers>=2.2.0
+mlx>=0.1.0
+mlx-lm>=0.1.0
+
+# Vector Databases
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# Graph Database
+neo4j>=5.14.0
+
+# RAG & LLM Tools
+langchain>=0.1.0
+langchain-community>=0.0.10
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+pyyaml>=6.0
+psutil>=5.9.0
+
+# Development
+jupyterlab>=4.0.0
+ipython>=8.12.0
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Experiment Tracking
+wandb>=0.16.0
+
+# API & Web (for future)
+fastapi>=0.104.0
+uvicorn>=0.24.0

@@ -1,0 +1,24 @@
+# Neo4j Configuration
+
+connection:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "neo4j"  # Change after first login
+  
+indexes:
+  - label: "Character"
+    property: "name"
+  - label: "Location"
+    property: "name"
+  - label: "Quest"
+    property: "quest_id"
+  - label: "NPC"
+    property: "npc_id"
+
+constraints:
+  - label: "Character"
+    property: "character_id"
+    type: "unique"
+  - label: "NPC"
+    property: "npc_id"
+    type: "unique"

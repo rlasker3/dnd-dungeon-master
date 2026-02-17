@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+dnd_ai_env/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (too large)
+models/checkpoints/*
+models/fine_tuned/*
+!models/checkpoints/.gitkeep
+!models/fine_tuned/.gitkeep
+
+# Data (large files)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Secrets
+.env
+*.log
+
+# OS
+.DS_Store
+
+# Caches
+.cache/
